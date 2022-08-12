@@ -1,4 +1,4 @@
-package main
+package random_data
 
 import (
 	"fmt"
@@ -66,7 +66,7 @@ type SomeStructWithTags struct {
 	NumU               uint    `faker:"oneof: 17, 18"`
 }
 
-func main() {
+func Random_data() {
 
 	a := SomeStructWithTags{}
 	err := faker.FakeData(&a)
