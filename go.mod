@@ -1,4 +1,4 @@
-module github.com/Ajay-Jagtap382
+module github.com/Ajay-Jagtap382/random_fake_data_generator
 
 go 1.18
 
